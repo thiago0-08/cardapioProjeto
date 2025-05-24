@@ -1,0 +1,39 @@
+.nav-bar{
+    width: 100%;
+    background-color: rgb(255, 227, 227);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    
+}
+
+.inicio, .carrinho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icone {
+    font-size: 20px;
+    color: rgba(255, 166, 0, 0.603);
+}
+
+.inicio:hover, .carrinho:hover{
+    cursor: pointer;
+}
+
+p {
+    font-size: 10px;
+}
+
+
+@media (max-width: 1024px) {
+    .nav-bar{
+        justify-content: space-between;
+    }
+}
