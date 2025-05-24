@@ -29,7 +29,7 @@ const Carrinho = () => {
             </div>
             <div className='carrinho-total'>
                 <h2>Total: R$ 200,00</h2>
-                <button>Finalizar Compra</button>
+                <button>Finalizar Compra       fefef</button>
             </div>
         </div>
     )
