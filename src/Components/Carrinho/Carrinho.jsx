@@ -25,8 +25,8 @@ const Carrinho = () => {
                         <p>Preço: R$ 100,00</p>
                         <button>Remover do Carrinho</button>
                     </div>
+                </div>
             </div>
-        </div>
             <div className='carrinho-total'>
                 <h2>Total: R$ 200,00</h2>
                 <button>Finalizar Compra</button>
